@@ -5,7 +5,7 @@ const localStorage = new LocalStorage("./scratch");
 let score = 0;
 let scroreBoard;
 scroreBoard = localStorage.getItem("scroreBoard");
-// console.log(scroreBoard);
+console.log(scroreBoard);
 
 if (!scroreBoard) {
   //   console.log("sss");
