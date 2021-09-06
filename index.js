@@ -241,6 +241,7 @@ if (score > 4) {
   score = score + 10;
   levelplay(l2Questions);
 }
+let temp = [...qarray];
 
 console.log(chalk.blue("YOUR TOTAL SCORE IS: ", score));
 
